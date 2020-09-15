@@ -13,7 +13,7 @@ function Sidebar() {
     return (
         <div className="sidebar">
 
-            <Twitter></Twitter>
+            <Twitter className="sidebar__twitterIcon"></Twitter>
 
             <SidebarOption text="Anasayfa" Icon={Home}></SidebarOption>
             <SidebarOption text="Keşfet" Icon={Explore}></SidebarOption>
