@@ -1,7 +1,30 @@
 .widgets {
-  flex: 0.2;
+  flex: 0.35;
 }
-.widgets > h2 {
-  font-size: 20px;
-  font-weight: 700;
+.search {
+  background-color: #e6ecf0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 20px;
+  margin-top: 5px;
+  width: 97%;
+  margin-left: 30px;
+}
+.search > svg {
+  padding-left: 8px;
+  color: #657786;
+}
+.search > input {
+  border: none;
+  background-color: #e6ecf0;
+  padding-left: 10px;
+  font-weight: 400;
+  font-size: small;
+}
+.search > input::placeholder {
+  font-size: 16px;
+}
+.search > input:focus {
+  outline: none;
 }
