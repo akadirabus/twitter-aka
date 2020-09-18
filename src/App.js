@@ -1,22 +1,15 @@
 import React from 'react';
 import './App.css';
-import Sidebar from './Sidebar';
-import Feed from './Feed'
-import Widgets from './Widgets'
+import Index from './Home/Index';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="app">
-
-      {/* Sidebar */}
-      <Sidebar></Sidebar>
-
-      {/* Feed */}
-      <Feed></Feed>
-
-      {/* Widgets */}
-      <Widgets></Widgets>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/" component={Index}></Route>
+      </Switch>
+    </Router>
   );
 }
 

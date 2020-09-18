@@ -122,7 +122,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 .sidebarOption {
   display: flex;
   align-items: center;
@@ -134,9 +133,8 @@ table {
   color: var(--twitter-color);
   transition: color 100ms ease-out;
 }
-
 .sidebarOption > svg {
-  padding: 20px;
+  padding: 15px;
 }
 .sidebarOption > h2 {
   font-size: 20px;
@@ -148,4 +146,9 @@ table {
 }
 .sidebarOption--active {
   color: var(--twitter-color);
+}
+@media only screen and (max-width: 1000px) {
+  .sidebarOption > h2 {
+    display: none;
+  }
 }

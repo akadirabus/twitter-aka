@@ -1,7 +1,7 @@
 import React from 'react'
 import './Widgets.css'
 import Trends from './Trends'
-import { Search } from './Icon'
+import { Search } from '../Icon'
 
 function Widgets() {
     return (

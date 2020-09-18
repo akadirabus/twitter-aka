@@ -1,7 +1,7 @@
 import React from 'react'
 import './Post.css'
 import { Avatar } from '@material-ui/core'
-import { Share, Like, Retweet, Reply, ArrowBottom } from './Icon/';
+import { Share, Like, Retweet, Reply, ArrowBottom } from '../Icon/';
 
 function Post({
     displayName,
@@ -14,7 +14,7 @@ function Post({
     return (
         <div className="post">
             <div className="post__avatar">
-                <Avatar src={require('./img/avatar.jpg')} class="tweetBox__avatar"></Avatar>
+                <Avatar src={require('../img/avatar.jpg')} class="tweetBox__avatar"></Avatar>
             </div>
             <div className="post__body">
                 <div className="post__header">

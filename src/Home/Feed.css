@@ -25,3 +25,15 @@
   color: var(--twitter-color);
   font-size: 20px !important;
 }
+@media only screen and (max-width: 1000px) {
+  .feed {
+    flex: 0.9;
+    border-right: 1px solid var(--twitter-background);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .feed {
+    flex: 0.9;
+    border-right: 1px solid var(--twitter-background);
+  }
+}

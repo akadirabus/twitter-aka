@@ -1,5 +1,5 @@
 import React from 'react'
-import { Options } from './Icon'
+import { Options } from '../Icon'
 import './Trends.css'
 import TrendsItem from './TrendsItem'
 

@@ -1,13 +1,13 @@
 import React from 'react'
 import './TweetBox.css'
 import { Avatar, Button } from "@material-ui/core"
-import { Gif, Emoji, Media, Question, Close, ArrowBottom } from './Icon/index'
+import { Gif, Emoji, Media, Question } from '../Icon/index'
 function TweetBox() {
     return (
         <div className="tweetBox">
             <form>
                 <div className="tweetBox__input">
-                    <Avatar src={require('./img/avatar.jpg')} class="tweetBox__avatar"></Avatar>
+                    <Avatar src={require('../img/avatar.jpg')} class="tweetBox__avatar"></Avatar>
                     <input placeholder="Neler oluyor?"></input>
                 </div>
 

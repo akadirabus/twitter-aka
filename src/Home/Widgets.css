@@ -1,5 +1,5 @@
 .widgets {
-  flex: 0.35;
+  flex: 0.25;
 }
 .search {
   background-color: #e6ecf0;
@@ -27,4 +27,9 @@
 }
 .search > input:focus {
   outline: none;
+}
+@media only screen and (max-width: 1000px) {
+  .widgets {
+    display: none;
+  }
 }

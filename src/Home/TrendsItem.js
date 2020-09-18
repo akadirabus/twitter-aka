@@ -1,6 +1,6 @@
 import React from 'react'
 import './TrendsItem.css'
-import { ArrowBottom } from './Icon'
+import { ArrowBottom } from '../Icon'
 
 function TrendsItem() {
     return (

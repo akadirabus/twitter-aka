@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Sidebar.css'
-import { Home, Notification, Explore, Lists, Messages, Profile, Twitter, Bookmark, More } from './Icon/index'
+import { Tweet, Home, Notification, Explore, Lists, Messages, Profile, Twitter, Bookmark, More } from '../Icon/index'
 import SidebarOption from './SidebarOption'
 import { Button } from "@material-ui/core"
 
@@ -24,6 +24,7 @@ function Sidebar() {
             <SidebarOption text="Profil" Icon={Profile}></SidebarOption>
             <SidebarOption text="Daha Fazla" Icon={More}></SidebarOption>
 
+            <Tweet className="sidebar__tweet__icon"></Tweet>
             <Button variant="outlined" className="sidebar__tweet" fullWidth>Tweetle</Button>
         </div>
     )
