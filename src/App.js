@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.css';
-import HomePage from './Home/Index';
-import Search from './Search/Search';
+import Sidebar from './Menu/Sidebar'
+import Feed from './Home/Feed'
+import Widgets from './Trends/Widgets'
 
 function App() {
   return (
-    <HomePage></HomePage>
+    <div className="app">
+      <Sidebar />
+      <Feed />
+      <Widgets />
+    </div>
   );
 }
 
