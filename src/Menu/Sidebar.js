@@ -24,8 +24,11 @@ function Sidebar() {
             <SidebarOption text="Profil" Icon={Profile}></SidebarOption>
             <SidebarOption text="Daha Fazla" Icon={More}></SidebarOption>
 
+
+
             <Tweet className="sidebar__tweet__icon"></Tweet>
             <Button variant="outlined" className="sidebar__tweet" fullWidth>Tweetle</Button>
+
         </div>
     )
 }

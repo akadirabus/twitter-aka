@@ -1,15 +1,11 @@
 import React from 'react';
 import './App.css';
-import Index from './Home/Index';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import HomePage from './Home/Index';
+import Search from './Search/Search';
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route path="/" component={Index}></Route>
-      </Switch>
-    </Router>
+    <HomePage></HomePage>
   );
 }
 

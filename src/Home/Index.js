@@ -1,8 +1,8 @@
 import React from 'react';
 import './Index.css';
-import Sidebar from './Sidebar';
+import Sidebar from '../Menu/Sidebar';
 import Feed from './Feed'
-import Widgets from './Widgets'
+import Widgets from '../Trends/Widgets'
 
 function Index() {
   return (
